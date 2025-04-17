@@ -12,23 +12,6 @@ This tool is designed to help digital forensics investigators analyze AnyDesk ar
 - **System configuration analysis**: Read and parse the `system.conf` file.
 - **Thumbnails Viewer**: View AnyDesk-related thumbnails from the `thumbnails` folder.
 - **Dark Mode**: Toggle between light and dark modes for better UI experience.
-- **Export Data**: Export parsed data to CSV or Excel for further analysis.
-
-## Requirements
-
-To run the tool, you need Python 3.x and the following libraries:
-
-- `Pillow`: Used for image processing (Thumbnails).
-- `pandas`: Used for exporting data to CSV and Excel.
-
-### Install dependencies
-
-1. Create a `requirements.txt` file by adding the following lines:
-
-   ```txt
-   pillow
-   pandas
-   ```
 
 2. Install the dependencies using pip:
 
